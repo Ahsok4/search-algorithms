@@ -71,7 +71,7 @@ public class Main {
     //    initialGraph.addLinkBetween(initialGraph.getNode(7), initialGraph.getNode(9));
     //    initialGraph.addLinkBetween(initialGraph.getNode(8), initialGraph.getNode(14));
 
-
+        
         Graph goalGraph = initialGraph.copy();
         for (Node i : goalGraph.getNodes()) {
             i.changeColorTo(Color.Green);
